@@ -19,7 +19,7 @@ const Search = () => {
         <View style={styles.searchWrapper}>
           <TextInput
             style={styles.searchInput}
-            value=""
+            // value=""
             onPressIn={() => {}}
             placeholder="What are you looking for"
           />
