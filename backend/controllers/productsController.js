@@ -1,6 +1,6 @@
 const Product = require("../models/Products");
 
-module.export = {
+module.exports = {
   createProduct: async (req, res) => {
     const newProduct = new Product(req.body);
     try {
